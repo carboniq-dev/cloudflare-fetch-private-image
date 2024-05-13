@@ -1,8 +1,8 @@
 # Cloudflare Fetch Private Image
 
-Example showcasing the use of Cloudflare Workers and a React client to fetch private images.
+Example showcasing the use of Cloudflare Workers and a React client to fetch private images from the cloudflare image delivery service.
 
-## Add credentials
+## Add Environment Variables
 
 ### Client
 
