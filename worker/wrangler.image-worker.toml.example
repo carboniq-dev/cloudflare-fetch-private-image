@@ -1,0 +1,13 @@
+# Worker config
+name = "image-worker"
+main = "src/worker.ts"
+compatibility_date = "2023-10-16"
+
+# KV store namespaces
+kv_namespaces = []
+
+[vars]
+# Navigate to the cloudflare Images Tab. There you'll find the hash.
+ACCOUNT_HASH = ""
+# Navigate to the cloudflare Images/Keys Tab. That's where you'll find your token.
+IMAGES_API_TOKEN = ""

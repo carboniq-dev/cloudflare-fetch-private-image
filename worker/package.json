@@ -1,0 +1,24 @@
+{
+  "name": "worker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy:worker": "wrangler deploy --config wrangler.image-worker.toml",
+    "dev": "wrangler dev",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231025.0",
+    "@types/node": "^20.8.9",
+    "miniflare": "^3.20231025.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6",
+    "vitest-environment-miniflare": "^2.14.1",
+    "wrangler": "^3.28.3"
+  },
+  "dependencies": {
+    "itty-cors": "^0.3.6",
+    "itty-router": "^4.0.23"
+  }
+}
